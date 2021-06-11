@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+  <link rel="stylesheet" href="index.css">
+  <title>Bart Schedule Carousel</title>
+</head>
+<body>
+  <div class="container">
+    <div class="carousel">
+      <div>
+        <button id="previous">&lt;</button>
+      </div>
+      <div class="ui card" id="station-card">
+        <div class="content">
+          <div id="station-abbreviation">
+            STATION ABBR
+          </div>
+          <div class="right floated">
+            <h3>Station name</h3>
+            <p id="station-name">Placeholder</p>
+            <h3>Address</h3>
+            <p id="station-address">Placeholder</p>
+            <h3>Next arrivals</h3>
+            <p id="station-next-arrivals">Placeholder</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <button id="next">&gt;</button>
+      </div>
+    </div>
+    <div id="stations-list">
+      <button class="button">Placeholder</button>
+    </div>
+    <div class="footer">
+      <p id="base-time">Last calculated at 00:00</p>
+      <p>Refresh page to update next arrivals</p>
+    </div>
+  </div>
+  <script src="./index.js" type="module"></script>
+</body>
+</html>
