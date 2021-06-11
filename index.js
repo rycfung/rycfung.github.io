@@ -22,7 +22,7 @@
 // Public Bart API key
 const bartAPI = {
   key: "MW9S-E7SL-26DU-VV8V",
-  url: "http://api.bart.gov/api/",
+  url: "https://api.bart.gov/api/",
 };
 
 var stationsList = [];
